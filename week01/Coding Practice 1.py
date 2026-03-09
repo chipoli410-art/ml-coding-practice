@@ -21,6 +21,8 @@ print(s1)
 
 s3 = '''Hello
 Python'''
-print
+print(s3)
+
+he
 
 
