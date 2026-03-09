@@ -56,3 +56,21 @@ print(a.find('y'))
 print(a.find('p'))
 print(a.index('y'))
 # print(a.index('p')) #오류 발생
+
+#문자 삽입
+b = ","
+c = b.join('Abcd')
+print(c)
+
+#대소문자 변환
+print(a.upper())
+print(a.lower())
+
+# 공백 제거
+d = "        py          "
+print(d.lstrip())
+print(d.rstrip())
+print(d.strip())
+
+#문자열 수정 (불가능)
+
