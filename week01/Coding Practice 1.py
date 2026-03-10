@@ -437,7 +437,7 @@ while True:
 
 f.close()
 
-# 파일모드 'r' - readilnes()
+# 파일모드 'r' - read()
 f = open('example.txt, 'r')
 lines = f.readlines
 
