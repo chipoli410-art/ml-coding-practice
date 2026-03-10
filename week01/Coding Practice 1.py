@@ -439,6 +439,7 @@ f.close()
 
 # 파일모드 'r' - readilnes()
 f = open('example.txt, 'r')
+lines = f.readlines
 
 
 
