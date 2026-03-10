@@ -210,7 +210,7 @@ print(list(dic.values()))
 #key, value 쌍구하기
 print(dic.items())
 
-for
+for key, value in dic
 
 
 
