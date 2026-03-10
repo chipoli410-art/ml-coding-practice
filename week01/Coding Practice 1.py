@@ -409,6 +409,15 @@ datetime.now()
 f = open('example.txt', 'w')
 print(f)
 
+#파일 닫기
+f.close()
+
+#파일 쓰기
+f = open('example.txt', 'w')
+for i in range(1, 6):
+    data = '%d번째 줄입니다. \n' % i
+    f.write(data)
+
 
 
 
