@@ -190,6 +190,11 @@ print(dic)
 
 #원소 삭제
 del dic[1]
+print(dic)
+
+#원소의 value 구하기
+print(dic['phone'])
+print(dic[])
 
 
 
