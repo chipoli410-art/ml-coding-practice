@@ -442,6 +442,13 @@ f = open('example.txt, 'r')
 line = f.readlines()
 print(line)
 
+for line in lines:
+    print(line)
+
+f.close()
+
+
+
 
 
 
