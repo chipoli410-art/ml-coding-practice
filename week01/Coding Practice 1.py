@@ -207,6 +207,9 @@ for key in dic.keys():
 print(dic.values())
 print(list(dic.values()))
 
+#key, value 쌍구하기
+print(dic.it)
+
 
 
 
