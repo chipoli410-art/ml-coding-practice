@@ -271,6 +271,18 @@ if money >= 1200 and money < 3500:
 
 # 그룹 자료형의 원소인지 검사하기
 print(1 in [1, 2, 3])
+print(x in [1, 2, 3])
+print(x not in [1, 2, 3])
+print('a' in ['a', 'b', 'c', 'd'])
+print('i' not in 'Python')
+
+#d아무 것도 하지 않게 설정
+if money >= 10:
+    pass
+else:
+    print('저금하자!')
+
+"""# 4. 반복문"""
 
 
 
