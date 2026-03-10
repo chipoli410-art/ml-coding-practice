@@ -188,7 +188,8 @@ print(dic)
 dic['pet'] = 'dog'
 print(dic)
 
-#
+#원소 삭제
+del dic[1]
 
 
 
