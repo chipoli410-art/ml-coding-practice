@@ -384,6 +384,14 @@ print(list(range(5)))
 print(list(range(5, 10)))
 print(list(range(5, 10)))
 
+for i in range(5, 20 ,3):
+    print(i)
+
+# 입력값 s의 길이를 반환
+len('Python')
+
+print(sorted([3, 0, 2, 1]))
+print(sorted('Python'))
 
 
 
