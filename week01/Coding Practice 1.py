@@ -233,7 +233,7 @@ print(s2 & s3)
 print(s2.intersection(s3))
 
 #합 집합 연산
-print(s2)
+print(s2 | s3)
 
 
 
