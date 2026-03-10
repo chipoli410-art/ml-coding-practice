@@ -381,6 +381,8 @@ c = input("정수를 입력하세요:")
 #입력 받은 숫자에 해당 되는 범위의 값을 반환
 print(range(5))
 print(list(range(5)))
+print(list(range(5, 10)))
+print(list(range(5, 10)))
 
 
 
