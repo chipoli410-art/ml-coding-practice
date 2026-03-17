@@ -98,7 +98,7 @@ print(sample_df.std())
 print(sample_df.agg(['count','mean', 'std', 'min', 'max']))
 
 file_url = 'https://media.githubusercontent.com/media/musthave-ML10/data_source/main/iris.csv'
-iris = pd.read_csv(dile_url)
+iris = pd.read_csv(file_url)
 
 print(iris.head())
 
@@ -188,7 +188,7 @@ print(np.arange(1,11))
 print(np.arange(1,11,2))
 print(np.linspace(1,100,10))       # 1부터 10까지 균등한 간격의 값을 4개 추출
 
-A = np,array([4, 16, 25])
+A = np.array([4, 16, 25])
 print(np.sqrt(A))
 
 print(np.arange(8).reshape(2, 4) + 10)
