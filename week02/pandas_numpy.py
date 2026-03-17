@@ -52,7 +52,8 @@ print(netfix['release_year'] > 2015)
 more 2015 = netfix[netfix['release_year'] > 2015]
 print(more2015.head(10))
 
-print(~(netfix))
+print(~(netfix['release_year'] > 2015))
+
 
 
 
