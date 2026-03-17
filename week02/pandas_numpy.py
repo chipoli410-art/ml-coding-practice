@@ -121,6 +121,7 @@ data = {
 }
 
 #Dataframe 생성
+df = pd.
 
 
 
