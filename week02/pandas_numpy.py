@@ -46,8 +46,8 @@ print(sample_df.drop(['a','b','c'], axis=0))         # 행을 제거하려면 ax
 netflix = pd.read_csv('2.1.1.netflix.csv')
 print(netflix.head())
 
-print(netfix['release_year'])
-print(netfix['release_year'] > 2015)
+print(netflix['release_year'])
+print(netflix['release_year'] > 2015)
 
 more2015 = netflix[netflix['release_year'] > 2015]
 print(more2015.head(10))
@@ -56,12 +56,12 @@ print(~(netflix['release_year'] > 2015))
 less2015 = netflix[~(netflix['release_year'] > 2015)]
 print(less2015.head())
 
-print((netflix['release_year'] > 2015) & (netfix['type'] == 'TV Show'))
+print((netflix['release_year'] > 2015) & (netflix['type'] == 'TV Show'))
 
 more2015_tv = netflix[(netflix['release_year'] > 2015) & (netflix['type'] == 'TV Show')]
 print(more2015_tv.head())
 
-more2015_or_tv = netfix[(netfix['release_year'] > 2015) | (netflix['type'] == 'TV Show')]
+more2015_or_tv = netflix[(netflix['release_year'] > 2015) | (netflix['type'] == 'TV Show')]
 print(more2015_or_tv.head())
 
 data = {
