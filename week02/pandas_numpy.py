@@ -102,7 +102,7 @@ iris = pd.read_csv(dile_url)
 
 print(iris.head())
 
-print
+print(iris.groupby('class').std())
 
 
 
