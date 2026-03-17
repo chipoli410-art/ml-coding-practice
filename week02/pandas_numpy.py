@@ -93,6 +93,7 @@ print(sample_df.reset_index(drop=True))          # 기존 인덱스는 제거하
 print(sample_df.set_index('var_1'))
 
 
+print(sample_df.describe())
 
 
 
