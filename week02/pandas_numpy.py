@@ -160,3 +160,5 @@ print(pd.DataFrame(sample_np, columns= sample_df.columns))      # 새 프레임�
 
 print(sample_np)
 print(sample_np[0])
+print(sample_np[0,2])
+print(s)
