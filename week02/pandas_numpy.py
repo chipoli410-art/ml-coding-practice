@@ -156,4 +156,6 @@ print(np.array(sample_df))
 sample_np = np.array(sample_df)
 print(pd.DataFrame(sample_np))            # 기존 프레임워크에서 컬럼명 가져오기
 
-print(pd.DataFrame(sample_np, columns= sample_df.columns))
+print(pd.DataFrame(sample_np, columns= sample_df.columns))      # 새 프레임워크에 컬럼명 붙이기
+
+print(sample_np)
