@@ -109,7 +109,16 @@ print(iris.drop('class', axis=1).agg(['sum','man', 'std']))
 # print(iris.agg(['sum','mean', 'std']))    # class 컬럼으로 인해 에러 발생
 
 
-print
+print(iris['class'].unique())
+print(iris['class'].nunique())
+print(iris['class'].values_counts())
+
+# 예제 데이터 생성
+data = {
+    'name': ['Alice', 'Bob', 'Charlie', 'Daavid', 'Eve'],
+    'age': [25, 30, 35, 28, 40],
+    'salary': [70000.00, 80000.00, 90000.00, 60000.00, 95000.00]]
+}
 
 
 
