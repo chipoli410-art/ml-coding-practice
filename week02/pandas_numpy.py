@@ -65,7 +65,7 @@ more2015_or_tv = netfix[(netfix['release_year'] > 2015) | (netflix['type'] == 'T
 print(more2015_or_tv.head())
 
 data = {
-    'name': ['Alice']
+    'name': ['Alice', 'Bob', 'Charlie', 'David', 'Eve', 'Feank',]
 }
 
 
