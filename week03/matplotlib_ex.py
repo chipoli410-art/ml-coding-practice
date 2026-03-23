@@ -32,3 +32,4 @@ plt.grid(True)
 print.savefig('Figure01.png')         # 결과를 그림파일로 저장
 plt.close()                         # 다음 Plot을 새로 그리기 위해 plt 닫기
 
+"""
