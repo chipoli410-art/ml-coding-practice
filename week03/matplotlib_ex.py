@@ -40,5 +40,5 @@ print(survived_counts)
 
 #막대 그래프 그리기
 plt.bar(survived_counts.index, survived_counts,
-        color = ['mediumorchid', 'darkviolet']
+        color = ['mediumorchid', 'darkviolet', 'indigo']
         )
