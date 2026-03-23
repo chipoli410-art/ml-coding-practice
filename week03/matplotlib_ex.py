@@ -42,3 +42,5 @@ print(survived_counts)
 plt.bar(survived_counts.index, survived_counts,
         color = ['mediumorchid', 'darkviolet', 'indigo'])
 plt.title('Survived Counts by Embarked Port on Titanic')
+plt.xlabel('Embarked Port')
+plt.ylabel('Count')
