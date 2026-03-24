@@ -174,3 +174,5 @@ plt.figure(figsize=(10, 6))
 plt.fill_between(survived_counts.index.astype(str), survived_counts[1],
                  color='purple', alpha=0.9, label='Survived')
 
+#나이대별 사망자
+plt_between(survived_counts,ind)
