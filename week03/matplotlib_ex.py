@@ -168,5 +168,5 @@ observed=False).size().unstack().fillna(0)
 print(survived_counts)
 
 #영역 채우기 그래프 그리기
-plt
+plt.figure()
 
