@@ -86,4 +86,8 @@ print(titanic.info(), '|n')
 titanic = titanic.dropna(subset=['Age', 'Fare', 'Survived'])
 
 #산점도 그래프 그리기
-plt.fig
+plt.figure(figsize=(12,8))
+scatter = plt.scatter(x='Age', y='Fare', data=titanic, c=titanic['Survived'],cmap='Set2',
+alpha=0.7)
+
+
