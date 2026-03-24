@@ -184,4 +184,9 @@ plt.ylabel('Count')
 plt.xticks(rotation=45)
 plt.legend()
 plt.grid(True)
+plt.savefig('Figure08.png')
+plt.close()
+
+## **박스 플롯 : 승객 나이의 데이터 분포, 중앙값, 이상치 살펴보기**
+
 
