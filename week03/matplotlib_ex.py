@@ -170,4 +170,7 @@ print(survived_counts)
 #영역 채우기 그래프 그리기
 plt.figure(figsize=(10, 6))
 
+#나이대별 생존자
+plt.fill_between(survived_counts.index.astype(str), survived_counts[1],
+                 color='purple', alpha=0.9, label='Survived')
 
