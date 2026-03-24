@@ -130,4 +130,7 @@ plt.xlabel('Age')
 plt.ylabel('Count')
 plt.title('Distribution of Ages on the Titanic')
 plt.grid(axis='y', linestyle='--', alpha=0.7)
-plt.savefig('Figure')
+plt.savefig('Figure06.png')
+plt.close()
+
+##히트맵 : 두 변수의 상관 관계를 표시하기**
