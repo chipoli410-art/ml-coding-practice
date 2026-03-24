@@ -218,3 +218,4 @@ violin_plot = plt.violinplot([titanic[titanic['Pclass'] == 1]['Age'],
                         titanic[titanic['Pclass'] == 2]['Age'],
                         titanic[titanic['Pclass'] == 3]['Age']],
                         showmeans=False, showmedians=True)
+plt.title('Violin Plot of Age by Pclass')
