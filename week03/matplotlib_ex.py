@@ -101,4 +101,5 @@ plt.close()
 """### **파이 차트 : 생존자, 사망자 비율 표현하기**"""
 
 # 사용자와 생존자의 수 계산
+survived_counts = titanic['Survived'].value_counts()
 
