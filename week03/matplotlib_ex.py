@@ -375,3 +375,5 @@ ax1.legend(loc= 'upper right', bbox_to_anchor=(1, 1)) #범례
 
 
 
+
+
