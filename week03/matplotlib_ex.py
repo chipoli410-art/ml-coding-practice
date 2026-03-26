@@ -332,8 +332,10 @@ fig, axes = plt.subplots(2, 1, figsize=(10, 10))
 axes[0].plot(x,y1, '-o', color='indigo',markersize=7, linewidth=3, alpha=0.7, label='Not Survived')
 axes[0].set_xlabel('Parch')
 axes[0].set_ylabel('Not Survived Count', color='indigo')
-axes[0].tick_params(axis='y', labelcolor)
+axes[0].tick_params(axis='y', labelcolor='indigo')
+axes[0].legend(loc='upper right')
 
+#두 번째 서브플롯 설정(막대 그래프)
 
 
 
