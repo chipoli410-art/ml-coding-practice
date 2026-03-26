@@ -320,6 +320,9 @@ parch_counts = titanic.groupby('Parch')
 ['Survived'].value_counts().unstack().fillna(0)
 print(parch_counts)
 
+#x,y값 설정
+x = parch_counts.index.astype(str)
+
 
 
 
