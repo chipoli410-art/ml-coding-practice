@@ -374,7 +374,7 @@ ax2 = ax1.twinx()
 
 #두번째 그래프 설정 (막대 그래프)
 ax2.bar(x, y2, color='deeppink', alpha=0.7, width=0.7, label='Survived')
-ax2.set_
+ax2.set_ylabel('Survived Count', color='deeppink')
 
 
 
