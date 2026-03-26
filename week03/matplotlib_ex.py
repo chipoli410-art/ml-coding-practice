@@ -292,6 +292,8 @@ plt.subplot(2, 1, 2)
 plt.bar(x, y2, color='deeppink', alpha=0.7, width=0.5, label='Survived')
 plt.xlabel('Parch')
 plt.ylabel('Survived Count', color='deeppink')
+plt.tick_params(axis='y', labelcolor='deeppink')
+plt.legend(loc='upper right')
 
 
 
