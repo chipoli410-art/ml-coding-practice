@@ -17,3 +17,10 @@ def load_housing_data():
             housing_tarball.extractall(path="datasets")
     return pd.read_csv(Path("datasets/housing/housing.csv"))
 
+housing = load_housing_data()
+
+# 테스트 세트 만들기
+from sklearn.model_selection import train_test_split
+
+
+
