@@ -51,5 +51,5 @@ from sklearn.impute import SimpleImputer
 imputer = SimpleImputer(strategy="median")
 
 #수치형 특성만 추출
-housing_num = housing_select_dtypes(include=[np.number])
+housing_num = housing.select_dtypes(include=[np.number])
 housing_num.head()
