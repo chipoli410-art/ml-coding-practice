@@ -56,4 +56,4 @@ housing_num.head()
 
 imputer.fit(housing_num)
 
-print
+print(imputer.statistics_)
