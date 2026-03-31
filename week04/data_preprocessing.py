@@ -22,7 +22,8 @@ housing = load_housing_data()
 # 테스트 세트 만들기
 from sklearn.model_selection import train_test_split
 
-housing["income_cat"] = pd.cut(housing["median_income"])
+housing["income_cat"] = pd.cut(housing["median_income"],
+                               bins=[0., 1.5, 3.0, 4.5, 6., np.inf])
 
 
 
