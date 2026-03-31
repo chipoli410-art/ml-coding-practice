@@ -46,4 +46,5 @@ ax1.set_title('Frequency of Tips by Time')
 ax2.set_title('Frequency of Tips by Time and Day')
 plt.savefig('./week04/Seaborn_Figure02.jpg')
 
+# **선형 회귀선 있는 산점도**
 
