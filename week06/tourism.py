@@ -85,6 +85,6 @@ def getRequestUrl(url):  #[CODE 1]
         print("[%s] Error for URL : %s" % (datetime.datetime.now(), url))
         return None
     
-main
+main()
 
     
