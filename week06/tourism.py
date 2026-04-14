@@ -39,7 +39,7 @@ def getTourismStatsService(nat_cd, ed_cd, nStartYear, nEndYear):
             if (jsonData['response']['header']['resultMsg'] == 'OK'):
                 #데이터가 없는 마지막 항목인 경우 ----------------------------
                 if jsonData['response']['body']['items'] == "":
-                    d
+                    dataEND = "{0}"
 
 
 
