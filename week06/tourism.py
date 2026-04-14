@@ -28,5 +28,7 @@ def main():
 
     """### [CODE 3]"""
 
-    def getTourismStatsService(nat_cd, ed_cd, nStartYear, nEndYear):
-        jso
+def getTourismStatsService(nat_cd, ed_cd, nStartYear, nEndYear):
+        jsonResult = []
+        result = []
+
