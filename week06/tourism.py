@@ -28,4 +28,5 @@ def main():
 
     """### [CODE 3]"""
 
-    def
+    def getTourismStatsService(nat_cd, ed_cd, nStartYear, nEndYear):
+        jso
