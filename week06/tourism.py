@@ -75,19 +75,5 @@ else:
 """### [CODE 1]"""
 
 def getRequestUrl(url):  #[CODE 1]
-    
-    
-
-
-
-
-
-
-                
-
-                
-                
-
-
-
-
+    req = urllib.request.Request(url)
+    try:
