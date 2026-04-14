@@ -72,6 +72,10 @@ if (responseDecode == None):
 else:
     return json.loads(responseDecode)
 
+"""### [CODE 1]"""
+
+def getRequestUrl(url):  #[CODE 1]
+    
     
 
 
