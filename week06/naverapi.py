@@ -17,4 +17,4 @@ def main():
     jsonResponse = getNaverSearch(node, srch_text, 1, 100)      # [CODE 2]
     total = jsonResponse['total']
 
-    while ((jsonResponse != None) and (jsonResponse['display'])
+    while ((jsonResponse != None) and (jsonResponse['display']! = 0)
