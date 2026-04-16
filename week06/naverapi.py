@@ -77,6 +77,14 @@ def getPostData(post, jsonResult, cnt):  #[CODE 3]
     pDate = datetime.datetime.strptime(post['pubDate'], '%a, %d %b %Y %H:%M:%S +0900')
     pDate = pDate.strftime('%Y-%m-%d %H:%M:%S')
 
+     jsonResult.append({
+        'cnt': cnt,
+        'title': title,
+        'description': description,
+        'org_link': org_link,
+        'link': link,
+        'pDate': pDate
+     })
     
 
 
