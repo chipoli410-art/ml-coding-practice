@@ -8,4 +8,4 @@ client_secret = 'c9L3L_G6HK'
 
 def main():
 
-    node = 'news'
+    node = 'news'                                            # 크롤링할 대상
