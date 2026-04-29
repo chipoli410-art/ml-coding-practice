@@ -44,4 +44,8 @@ from sklearn.linear_model import SGDClassifier
 sgd_clf = SGDClassifier(random_state=42)
 sgd_clf.fit(X_train, y_test_5)
 
-sgd_clf.p
+sgd_clf.predict([some_digit])
+
+# 성능 측정 - 교차 검증을 사용한 정확도 측정
+from sklearn.model_selection import cross_val_score
+
