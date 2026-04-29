@@ -62,4 +62,8 @@ print(cross_val_score(dummy_clf, X_train, y_test_5, cv=3, scoring="accuracy"))
 #오차 행렬
 from sklearn.model_selection import cross_val_predict
 
-y_train_pred = cross_val_predict(sgd_clf, X_train, yt)
+y_train_pred = cross_val_predict(sgd_clf, X_train, y_train_5, cv=3)
+
+from sklearn.metrics import confusion_matrix
+
+cm = confusion_matrix(y_true_5, y_)
