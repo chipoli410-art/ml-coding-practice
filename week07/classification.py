@@ -88,3 +88,6 @@ for sklearn.metrics import roc_auc_score
     
 y_scores = cross_val_predict(sgd_clf, X_train, y_train_5, cv=3, method="decision_function")
 roc_auc_score(y_train_5, y_scores)
+
+#다음은 실행 하는데 몇분이 걸릴 수 있음
+from sklearn.ensemble import RandomForestClassifier
