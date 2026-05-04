@@ -163,3 +163,9 @@ netflix_age_country_unstack
 age_order = ['All', 'Older Kids', 'Teens', 'Adults']
 country_order = ['United States', 'India', 'United Kingdom', 'Canada', 'Japan',
                  'France', 'South Korea', 'Spain', 'Mexico', 'Turkey']
+
+# 데이터 필터링
+# .loc[] : 데이터프레임의 행과 열의 이름을 사용
+netflix_age_country_unstack = netflix_age_country_unstack.loc[age_order, country_order]
+
+# 결측치 0으로 처리
