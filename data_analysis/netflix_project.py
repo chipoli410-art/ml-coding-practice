@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # 세션 저장소에 업로드한 csv 파일을 읽어 변수에 할당
-netflix = pd.read_csv('netflix_titles.csv')
+netflix = pd.read_csv('data_analysis/netflix_titles.csv')
 netflix.head()
 
 # . columns : 열 이름 확인
@@ -192,7 +192,7 @@ plt.show()
 
 # WordCloud : 워드 클라우드 생성에 필요한 모듈
 # Image : 워드 클라우드를 원하는 형태로 그리기 위해 그림을 불러오는 패키지
-from WordCloud import WordCloud
+from wordcloud import WordCloud
 from PIL import Image
 
 plt.figure(figsize=(15, 5))
@@ -202,7 +202,7 @@ text = str(list(netflix['description']))
 
 # mask : 단어를 그릴 위치 설정, 흰색(#FFFFFF) 항목은 마스킹된 것으로 간주
 # 로고 이미지 열고 넘파이 배열로 변환
-mask = np.array(Image.open('netflix_logo.jpg'))
+mask = np.array(Image.open('data_analysis/netflix_logo.jpg'))
 
 # 워드 클라우드 색상맵 만들기
 cmap = plt.matplotlib.colors.LinearSegmentedColormap.from_list('', ['#221f1f','#b20710'])
@@ -218,6 +218,7 @@ plt.suptitle('Keywords in the description of Movies and TV shows', fontweight='b
 plt.imshow(wordcloud)
 
 # 축 감추기
+
 plt.axis('off')
 plt.show()
 
