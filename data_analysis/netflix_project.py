@@ -114,3 +114,5 @@ netflix.head(3)
 genres = netflix['listed_in'].str.split(', ', expand=True).stack().value_counts()
 genres
 
+
+
