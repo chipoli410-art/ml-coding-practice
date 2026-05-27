@@ -2,7 +2,7 @@ from sklearn.datasets import load_iris
 from sklearn.tree import DecisionTreeClassifier
 
 iris = load_iris(as_frame=True)
-X = iris.data[["petal length (cm)", "peral width (cm)"]].values
+X_iris = iris.data[["petal length (cm)", "petal width (cm)"]].values
 y_iris = iris.target
 
 tree_clf = DecisionTreeClassifier(max_depth=2, random_state=42)
@@ -16,4 +16,4 @@ export_graphviz(
     feature_names=["petal length (cm)", "petal width (cm)"],
     class_names=iris.target_names,
     rounded=True,
-    filled=True
+    filled=True)
