@@ -37,7 +37,8 @@ tree_clf2 = DecisionTreeClassifier(min_samples_leaf=5, random_state=42)
 tree_clf1.fit(X_moons, y_moons)
 tree_clf2.fit(X_moons, y_moons)
 
-X_moons_test
+X_moons_test, y_moonstest = make_moons(n_samples= 1000, noise=0.2, random_state=43)
+
 
 
 
