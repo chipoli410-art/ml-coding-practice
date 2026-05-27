@@ -65,7 +65,7 @@ Source.from_file("regression_tree.dot")
 
 """#축 방향에 대한 민감성"""
 
-
+from sklearn.decomp
 
 
 
