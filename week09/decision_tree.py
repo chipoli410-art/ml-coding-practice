@@ -18,5 +18,5 @@ export_graphviz(
     rounded=True,
     filled=True)
 
-from graphciz import source
+from graphviz import source
 
