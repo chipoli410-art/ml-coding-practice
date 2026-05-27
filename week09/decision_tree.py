@@ -42,6 +42,9 @@ X_moons_test, y_moonstest = make_moons(n_samples= 1000, noise=0.2, random_state=
 print(tree_clf1.score(X_moons_test, y_moons_test))
 print(tree_clf2.score(X_moons_test, y_moons_test))
 
+#회귀
+
+from s
 
 
 
