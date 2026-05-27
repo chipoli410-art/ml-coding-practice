@@ -18,9 +18,11 @@ export_graphviz(
     rounded=True,
     filled=True)
 
-from graphviz import source
+from graphviz import Source
 
-source.from_file("iris_tree.dot")
+Source.from_file("iris_tree.dot")
+
+
 
 
 
