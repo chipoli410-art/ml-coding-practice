@@ -94,7 +94,7 @@ for idx, (name, style) in enumerate(zip(iris.target_names, ("yo", "bs", "g^"))):
              style, label=f"Iris {name}")
 
 plt.xlabel("$z_1$")
-plt.ylabel("$z_2$")
+plt.ylabel("$z_2$", rotation=0)
 
 
 
