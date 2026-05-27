@@ -82,6 +82,10 @@ custom_cmap = ListedColormap(["#fafab0", "#9898ff", "#a0faa0"])
 
 plt.fifure(figsize=(8,4))
 
+axes = [-2.2, 2.4, -0.6, 0.7]
+z0s, z1s = np.meshgrid(np.linspace(axes[0], axes[1], 100),
+                       np.linspace(axes[2], axes[3], 100))
+
 
 
 
