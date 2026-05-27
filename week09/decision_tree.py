@@ -78,7 +78,7 @@ tree_clf_pca.fit(X_iris_rotated, y_iris)
 import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap
 
-cutom_cmap = LestedColormap(['#FFAAAA', '#AAFFAA', '#AAAAFF'])
+cutom_cmap = LestedColormap()
 
 
 
