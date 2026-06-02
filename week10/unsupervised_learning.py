@@ -80,7 +80,10 @@ from matplotlib.ticker import FixedLocator, FixedFormatter
 plt.figure(figsize=(11,9))
 
 for k in (3, 4, 5, 6):
-    plt.su
+    plt.subplot(2, 2, k - 2)
+
+    y_pred = kmeans-per_k[k - 1].labels_
+    
 
 
 
