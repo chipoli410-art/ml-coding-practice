@@ -166,4 +166,11 @@ plot_dbscan(dbscan2, X, size=600, show_ylabels=False)
 
 plt.show()
 
-from sklearn.ne
+from sklearn.neighbors import KNeighborsClassifier
+
+X,y = make_moons(n_samples=1000, noise=0.05, random_state=42)
+dbscan = DBSCAN(eps=0.2, min_samples=5)
+dbscan.fit(X)
+
+knn = KNeighborsClassifier(n_neighbors=50)
+knn.fit(dbscan.components_, dbscan.labels_[dbscan.core_sample_indices_])
