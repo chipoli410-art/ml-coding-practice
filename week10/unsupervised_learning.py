@@ -30,4 +30,13 @@ def plot_clusters(X, y=None):
 
     plt.figure(figsize=(8,4))
     plot_clusters(X)
+    plt.gca().set_axisbelow(True)
+    plt.grid()
+    plt.show()
+
+#각 샘플은 5개의 클러스터 중 하나에 할당
+print(y_pred)
+
+#5개의_ 센트로이드_(즉, 클러스터 중심)을 추정
+print(kmeans.cl)
 
