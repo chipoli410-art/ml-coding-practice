@@ -83,7 +83,7 @@ for k in (3, 4, 5, 6):
     plt.subplot(2, 2, k - 2)
 
     y_pred = kmeans-per_k[k - 1].labels_
-    
+    silhouette_co]efficients = silhouette_samples(X, y_pred)
 
 
 
