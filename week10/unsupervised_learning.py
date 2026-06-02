@@ -153,8 +153,8 @@ def plot_dbscan(dbscan, X, size, show_xlabels=True, show_ylabels=True):
     plt.grid()
     plt.gca().set_axisbelow(True)
 
-    dbscan2 = DBSCAN(eps=0.2)
-    dbscan2.fit(X)
+dbscan2 = DBSCAN(eps=0.2)
+dbscan2.fit(X)
 
 plt.figure(figsize=(9, 3.2))
 
