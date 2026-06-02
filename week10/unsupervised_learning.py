@@ -137,7 +137,7 @@ def plot_dbscan(dbscan, X, siae, show_xlabels=True, show_ylabels=True):
     anomalies = X[anomalies_mask
     non_cores = X[non_core_mask]
 
-    plt
+    plt.scatter(cores[:,0], cores[:,1], c=dbscan.lambda)
 
  )
 
