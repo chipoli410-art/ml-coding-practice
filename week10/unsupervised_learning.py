@@ -82,8 +82,15 @@ plt.figure(figsize=(11,9))
 for k in (3, 4, 5, 6):
     plt.subplot(2, 2, k - 2)
 
-    y_pred = kmeans-per_k[k - 1].labels_
-    silhouette_co]efficients = silhouette_samples(X, y_pred)
+    y_pred = kmeans_per_k[k - 1].labels_
+    silhouette_coefficients = silhouette_samples(X, y_pred)
+
+    padding = len(X) // 30
+    pos = padding
+    ticks =[]
+    for i in range(k):
+        coe
+
 
 
 
