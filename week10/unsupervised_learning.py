@@ -89,7 +89,9 @@ for k in (3, 4, 5, 6):
     pos = padding
     ticks =[]
     for i in range(k):
-        coe
+        coeffs = silhouette_coefficients[y_pred == i]
+        coeffs.sort()
+        
 
 
 
