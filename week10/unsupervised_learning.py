@@ -164,3 +164,6 @@ def plot_dbscan(dbscan, X, size, show_xlabels=True, show_ylabels=True):
 plt.subplot(122)
 plot_dbscan(dbscan2, X, size=600, show_ylabels=False)
 
+plt.show()
+
+from sklearn.ne
