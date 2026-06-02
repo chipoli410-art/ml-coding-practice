@@ -40,7 +40,7 @@ print(y_pred)
 #5개의_ 센트로이드_(즉, 클러스터 중심)을 추정
 print(kmeans.cluster_centers_)
 
-print(kmeans.cluster_centers_)
+print(kmeans.labels_)
 
 # 이너셔
 print(kmeans.inertia_)
